@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{indentfirst}
+
+\title{Modelagem da epidemia de COVID-19 no Japão}
+\author{Carolina Monteiro e Laura Chaves }
+\date{Setembro 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+
+Primeiro caso de COVID no Japão 15 de janeiro de 2020.
+Fechamento de escolas em março.
+\link{https://doi.org/10.1016/j.idm.2020.08.004} Artigo com muita coisa legal, é de um cara que fez uma previsão de como evoluiria a pandemia no Japão em fevereiro e aí em junho ele analisou as coisas como ficaram.
+
+Enfim, o estado de emergência no Japão foi declarado em 7 de abril, quando os casos novos estavam em alta e subindo exponencialmente, mas depois disso caíram bastante, ao ponto do Japão sair do estado de emergência dia 25 de maio.
+
+O artigo foi feito com dados de até 30 de junho quando os casos ainda estavam em baixa, mas logo depois disso começaram a subir de novo, até o ponto que o número de novos casos diários passou a ser mais alto do que na época do estado de emergência, tendo um novo pico no início de agosto de 2020 (esses dados foram tirados do \link{ourworldindata.org/coronavirus} e do \link{https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6}
+
+Acho que quando fomos citar artigos podemos usar esse que eu pus o link no primeiro parágrafo porque dá uma boa visão de como foram as coisas até 30 de junho, mas o outro eu não sei. Não consegui achar nada muito recente. Achei um artigo que modela até abril, mas não sei se vai ser muito útil (além de que ele usa modelagem estatística com coisa Bayesiana eca)
+
+\section{Metodologia}
+
+Tem poucos artigos modelando de fato a epidemia por lá, eu na introdução coloquei quase todos, mas podemos procurar mais.
+O que parece ter tido mais sucesso até agora é o SEIR então acho que vamos acabar usando esse. Também vi modelagens com SIR, mas são estocásticas e parecem complexas.
+
+\section{Bibliografia}
+
+\link{https://www.jstage.jst.go.jp/article/bst/14/3/14_2020.03133/_pdf/-char/en}
+\link{https://doi.org/10.1016/j.idm.2020.08.004}
+\link{https://www.mdpi.com/1660-4601/17/11/3872}
+
+
+\end{document}
